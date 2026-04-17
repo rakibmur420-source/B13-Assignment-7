@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="shadow bg-white sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center py-3 px-4">
         
-        {/* Logo Text Only */}
+        
         <Link to="/" className="flex items-center">
           <span className="font-bold text-xl">
             <span className="text-black">Keep</span>
@@ -22,7 +22,8 @@ const Navbar = () => {
           </span>
         </Link>
 
-        {/* Nav Links */}
+        
+        
         <ul className="flex items-center gap-4 sm:gap-6">
           {navItems.map((item, index) => (
             <li key={index}>

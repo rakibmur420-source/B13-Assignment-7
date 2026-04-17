@@ -49,7 +49,7 @@ const FriendDetailsPage = () => {
     <div className="container mx-auto px-4 py-10">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
 
-        {/* LEFT COLUMN — Friend Info Card */}
+        
         <div className={`card shadow border ${config.border} ${config.bg}`}>
           <div className="card-body items-center text-center gap-3 p-6">
             <img
@@ -88,10 +88,12 @@ const FriendDetailsPage = () => {
           </div>
         </div>
 
-        {/* RIGHT COLUMN */}
+        
         <div className="lg:col-span-2 flex flex-col gap-6">
 
-          {/* Relationship Goal Card — NO progress bar */}
+          
+
+
           <div className="card shadow border border-gray-100 bg-base-100">
             <div className="card-body p-5">
               <div className="flex justify-between items-center mb-2">
@@ -108,7 +110,8 @@ const FriendDetailsPage = () => {
             </div>
           </div>
 
-          {/* Quick Check-In Card */}
+          
+          
           <div className="card shadow border border-gray-100 bg-base-100">
             <div className="card-body p-5">
               <h3 className="font-bold text-gray-700 text-lg mb-4">Quick Check-In</h3>

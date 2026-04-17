@@ -8,6 +8,7 @@ const COLORS = {
   Video: "#a855f7",
 };
 
+
 const StatsPage = () => {
   const { timeline } = useContext(TimelineContext);
 
@@ -35,7 +36,8 @@ const StatsPage = () => {
         </div>
       ) : (
         <>
-          {/* Pie Chart Card */}
+         
+         
           <div className="card shadow border border-gray-100 bg-base-100 mb-6">
             <div className="card-body items-center p-6">
               <h2 className="card-title text-gray-700 mb-4">By Interaction Type</h2>
@@ -63,7 +65,8 @@ const StatsPage = () => {
             </div>
           </div>
 
-          {/* Summary Cards */}
+          
+          
           <div className="grid grid-cols-3 gap-4">
             {data.map((item) => (
               <div

@@ -43,12 +43,13 @@ const Banner = ({ friends }) => {
 relationships that matter most.
         </p>
 
-        {/* Only Get Started button */}
+        
         <button className="btn bg-emerald-600 text-white border-none hover:bg-emerald-700 mb-12">
           + Add a friend
         </button>
 
-        {/* Summary Cards */}
+       
+       
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {summaryCards.map((card, i) => (
             <div

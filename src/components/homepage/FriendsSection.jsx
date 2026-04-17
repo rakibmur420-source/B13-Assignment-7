@@ -5,12 +5,13 @@ import FriendCard from "../ui/FriendCard";
 const FriendsSection = ({ friends }) => {
   return (
     <section className="container mx-auto px-4 py-12">
-      {/* Centered heading and paragraph */}
+      
+      
       <div className="text-center mb-8">
         <h2 className="text-2xl font-bold text-gray-800">Your Friends</h2>
         
 
-        {/* Buttons */}
+        
         <div className="flex gap-2 justify-center mt-4">
           
           

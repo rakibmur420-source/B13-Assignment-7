@@ -24,7 +24,7 @@ const TimelinePage = () => {
       <h1 className="text-3xl font-bold text-gray-800 mb-2">Timeline</h1>
       <p className="text-gray-500 mb-6 text-sm">Your full interaction history.</p>
 
-      {/* Filter Buttons */}
+      
       <div className="flex gap-2 mb-8 flex-wrap">
         {filters.map((f) => (
           <button
@@ -51,7 +51,7 @@ const TimelinePage = () => {
         </div>
       ) : (
         <div className="relative">
-          {/* Vertical timeline line */}
+          
           <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-gray-200"></div>
 
           <ul className="space-y-5 pl-14">
@@ -59,7 +59,7 @@ const TimelinePage = () => {
               const config = typeConfig[entry.type];
               return (
                 <li key={entry.id} className="relative">
-                  {/* Icon bubble */}
+                  
                   <div
                     className={`absolute -left-8 w-8 h-8 rounded-full flex items-center justify-center ${config.bg} border-2 border-white shadow`}
                   >
@@ -83,6 +83,7 @@ const TimelinePage = () => {
                               year: "numeric",
                               hour: "2-digit",
                               minute: "2-digit",
+                              
                             })}
                           </p>
                         </div>

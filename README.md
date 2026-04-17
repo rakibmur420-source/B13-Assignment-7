@@ -23,16 +23,3 @@ Dependencies
 
 This project uses modern frontend libraries such as React and Tailwind CSS.
 External icons are used via Font Awesome / React Icons.
-
-⚙️ How to Run Locally
-
-Clone the repository: git clone https://github.com/your-username/b13-a7-keep-keeper.git
-
-
-🔗 Relevant Links
-
-Live Link:
-https://b13-a7-keep-keeper.vercel.app/
-
-Git Repository:
-https://github.com/your-username/b13-a7-keep-keeper
