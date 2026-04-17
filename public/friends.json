@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Anika Rahman",
+    "picture": "https://i.pravatar.cc/300?img=47",
+    "email": "anika.rahman@gmail.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met during freshman year in Dhaka University. We used to study together every weekend at the library. She is now working as a software engineer at a tech startup.",
+    "goal": 14,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 2,
+    "name": "Tariq Hassan",
+    "picture": "https://i.pravatar.cc/300?img=12",
+    "email": "tariq.hassan@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "mentor"],
+    "bio": "My first manager at my previous company. He taught me so much about professional growth and gave me confidence when I needed it most.",
+    "goal": 10,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 3,
+    "name": "Priya Sharma",
+    "picture": "https://i.pravatar.cc/300?img=45",
+    "email": "priya.sharma@yahoo.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["childhood", "neighbour"],
+    "bio": "We grew up on the same street and went to the same school for 10 years. She moved to Bangalore but we try to video call every two weeks.",
+    "goal": 14,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 4,
+    "name": "Nabil Chowdhury",
+    "picture": "https://i.pravatar.cc/300?img=15",
+    "email": "nabil.c@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["college", "gym buddy"],
+    "bio": "We bonded over our shared love of fitness and anime. Currently doing his Masters in CSE. We hit the gym together every Saturday morning.",
+    "goal": 7,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 5,
+    "name": "Meera Pillai",
+    "picture": "https://i.pravatar.cc/300?img=48",
+    "email": "meera.pillai@gmail.com",
+    "days_since_contact": 35,
+    "status": "overdue",
+    "tags": ["work", "close friend"],
+    "bio": "We worked together on a huge product launch that kept us both up for weeks. One of the most reliable and warm-hearted people I have ever met.",
+    "goal": 21,
+    "next_due_date": "2026-03-30"
+  },
+  {
+    "id": 6,
+    "name": "Rafiq Islam",
+    "picture": "https://i.pravatar.cc/300?img=18",
+    "email": "rafiq.islam@protonmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["family", "cousin"],
+    "bio": "My favourite cousin from my mother's side. We bond over football, street food, and long late-night conversations about life plans.",
+    "goal": 10,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 7,
+    "name": "Shreya Gupta",
+    "picture": "https://i.pravatar.cc/300?img=49",
+    "email": "shreya.g@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["online friend", "book club"],
+    "bio": "We connected through an online book club and realised we share the same taste in literature and philosophy. She always recommends the best reads.",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 8,
+    "name": "Karim Uddin",
+    "picture": "https://i.pravatar.cc/300?img=20",
+    "email": "karim.uddin@gmail.com",
+    "days_since_contact": 28,
+    "status": "overdue",
+    "tags": ["school", "old friend"],
+    "bio": "Best friend from secondary school. We drifted apart after different universities but try to reconnect whenever we are both in Chittagong.",
+    "goal": 21,
+    "next_due_date": "2026-03-25"
+  }
+]
