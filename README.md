@@ -1,26 +1,38 @@
-📌 KeenKeeper (KeepKeeper)
+KeenKeeper
+Overview
 
-🔗 Live Site: https://b13-a7-keep-keeper.vercel.app/
+This project is a dynamic and responsive web application developed as part of an assignment.
+It highlights modern UI design, smooth user interaction, and dynamic features using React and modern frontend tools.
 
-📖 Description
-
-KeenKeeper is a modern relationship tracking and management web application.
-It helps users organize, track, and nurture their meaningful connections in a simple and interactive way.
-
-The app provides a clean UI to manage relationship timelines, view history, and analyze connection activities.
-
-🚀 Features
-📌 Track and manage personal relationships
-📊 Analytics dashboard for insights
-🕒 Activity history view
-👥 Friend/connection details page
-⚡ Fast and responsive UI
-🎨 Clean modern design using Tailwind CSS
-🌐 Fully deployed on Vercel
-🛠️ Technologies Used
+Technologies Used
 React.js
 Vite
 React Router
 Tailwind CSS
-Font Awesome / React Icons
-Vercel (Deployment)
+JavaScript
+API
+Features
+Fully responsive design (Mobile, Tablet, Desktop)
+Interactive and user-friendly interface
+Dynamic functionality using React components
+Clean and organized code structure
+Smooth user experience
+Modern UI with Tailwind CSS
+Fast performance with Vite
+Dependencies
+
+This project uses modern frontend libraries such as React and Tailwind CSS.
+External icons are used via Font Awesome / React Icons.
+
+⚙️ How to Run Locally
+
+Clone the repository: git clone https://github.com/your-username/b13-a7-keep-keeper.git
+
+
+🔗 Relevant Links
+
+Live Link:
+https://b13-a7-keep-keeper.vercel.app/
+
+Git Repository:
+https://github.com/your-username/b13-a7-keep-keeper
