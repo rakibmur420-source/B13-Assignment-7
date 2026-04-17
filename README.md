@@ -12,10 +12,6 @@ It highlights modern UI design, smooth user interaction, and dynamic features us
 - JavaScript
 - API
 
-<<<<<<< HEAD
-This project uses modern frontend libraries such as React and Tailwind CSS.
-External icons are used via Font Awesome / React Icons.
-=======
 ## Features
 - Fully responsive design (Mobile, Tablet, Desktop)
 - Interactive and user-friendly interface
@@ -39,5 +35,6 @@ git clone https://github.com/your-username/b13-a7-keep-keeper.git
 
 Live Link: https://b13-a7-keep-keeper.vercel.app/
 
-Git Repository: https://github.com/your-username/b13-a7-keep-keeper
->>>>>>> 87c62e3ed43beb72e9a9fa56c9a4deeeb39a5180
+Git Repository: https://github.com/rakibmur420-source/B13-Assignment-7
+This project uses modern frontend libraries such as React and Tailwind CSS.
+External icons are used via Font Awesome / React Icons.
