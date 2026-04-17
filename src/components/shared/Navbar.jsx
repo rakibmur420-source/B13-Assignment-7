@@ -13,12 +13,13 @@ const Navbar = () => {
   return (
     <nav className="shadow bg-white sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center py-3 px-4">
-        {/* Logo - text only, no image */}
-        <Link to="/" className="flex items-center gap-2">
-          <div className="w-9 h-9 bg-emerald-600 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-lg">B</span>
-          </div>
-          <span className="font-bold text-xl text-gray-800">BondTrack</span>
+        
+        {/* Logo Text Only */}
+        <Link to="/" className="flex items-center">
+          <span className="font-bold text-xl">
+            <span className="text-black">Keep</span>
+            <span className="text-emerald-600">Keeper</span>
+          </span>
         </Link>
 
         {/* Nav Links */}

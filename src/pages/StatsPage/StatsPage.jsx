@@ -38,7 +38,7 @@ const StatsPage = () => {
           {/* Pie Chart Card */}
           <div className="card shadow border border-gray-100 bg-base-100 mb-6">
             <div className="card-body items-center p-6">
-              <h2 className="card-title text-gray-700 mb-4">Interaction Analytics</h2>
+              <h2 className="card-title text-gray-700 mb-4">By Interaction Type</h2>
               <div className="w-full flex justify-center">
                 <PieChart width={300} height={260}>
                   <Pie
