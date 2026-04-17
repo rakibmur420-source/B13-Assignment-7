@@ -1,16 +1,26 @@
-# React + Vite
+📌 KeenKeeper (KeepKeeper)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 Live Site: https://b13-a7-keep-keeper.vercel.app/
 
-Currently, two official plugins are available:
+📖 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+KeenKeeper is a modern relationship tracking and management web application.
+It helps users organize, track, and nurture their meaningful connections in a simple and interactive way.
 
-## React Compiler
+The app provides a clean UI to manage relationship timelines, view history, and analyze connection activities.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Features
+📌 Track and manage personal relationships
+📊 Analytics dashboard for insights
+🕒 Activity history view
+👥 Friend/connection details page
+⚡ Fast and responsive UI
+🎨 Clean modern design using Tailwind CSS
+🌐 Fully deployed on Vercel
+🛠️ Technologies Used
+React.js
+Vite
+React Router
+Tailwind CSS
+Font Awesome / React Icons
+Vercel (Deployment)
