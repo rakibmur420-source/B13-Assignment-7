@@ -35,17 +35,17 @@ const Banner = ({ friends }) => {
     <div className="bg-gradient-to-br from-emerald-50 to-teal-50 py-16 px-4">
       <div className="container mx-auto text-center">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-          The People Who Matter,{" "}
-          <span className="text-emerald-600">All in One Place.</span>
+          Friends to keep close in your life{" "}
+          
         </h1>
         <p className="text-gray-500 max-w-xl mx-auto mb-8 text-base md:text-lg">
-          Keep your meaningful connections close and organized. Never forget the
-          moments, conversations, and bonds that truly count.
+          Your personal shelf of meaningful connections. Browse, tend, and nurture the
+relationships that matter most.
         </p>
 
         {/* Only Get Started button */}
         <button className="btn bg-emerald-600 text-white border-none hover:bg-emerald-700 mb-12">
-          Get Started
+          + Add a friend
         </button>
 
         {/* Summary Cards */}

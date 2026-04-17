@@ -20,11 +20,12 @@ const Footer = () => {
         </h3>
 
         {/* Social Icons */}
-        <div className="flex justify-center items-center gap-6 mt-4">
-          <img src="/assets/facebook.png" alt="facebook" className="w-8 h-8" />
-          <img src="/assets/twitter.png" alt="twitter" className="w-8 h-8" />
-          <img src="/assets/instagram.png" alt="instagram" className="w-8 h-8" />
-        </div>
+        <div className="flex justify-center items-center gap-6 mt-4 text-2xl text-white">
+  <i className="fa-brands fa-facebook hover:text-emerald-400 cursor-pointer"></i>
+  <i className="fa-brands fa-x-twitter hover:text-emerald-400 cursor-pointer"></i>
+  <i className="fa-brands fa-square-instagram hover:text-emerald-400 cursor-pointer"></i>
+</div>
+
 
         {/* Bottom Text */}
         <div className="border-t border-gray-700 mt-8 pt-6 text-sm text-gray-500">
