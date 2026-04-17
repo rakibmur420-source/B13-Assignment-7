@@ -2,13 +2,7 @@ import { useParams } from "react-router";
 import { useContext } from "react";
 import { HashLoader } from "react-spinners";
 import { toast } from "react-toastify";
-import {
-  FaClock,
-  FaArchive,
-  FaTrash,
-  FaEnvelope,
-  FaEdit,
-} from "react-icons/fa";
+import { FaClock, FaArchive, FaTrash, FaEnvelope, FaEdit } from "react-icons/fa";
 import callImg from "../../assets/call.png";
 import textImg from "../../assets/text.png";
 import videoImg from "../../assets/video.png";
@@ -16,24 +10,9 @@ import useFriends from "../../hooks/useFriends";
 import { TimelineContext } from "../../context/TimelineContext";
 
 const statusConfig = {
-  overdue: {
-    badge: "badge-error",
-    label: "Overdue",
-    border: "border-red-200",
-    bg: "bg-red-50",
-  },
-  "almost due": {
-    badge: "badge-warning",
-    label: "Almost Due",
-    border: "border-yellow-200",
-    bg: "bg-yellow-50",
-  },
-  "on-track": {
-    badge: "badge-success",
-    label: "On Track",
-    border: "border-green-200",
-    bg: "bg-green-50",
-  },
+  overdue: { badge: "badge-error", label: "Overdue", border: "border-red-200", bg: "bg-red-50" },
+  "almost due": { badge: "badge-warning", label: "Almost Due", border: "border-yellow-200", bg: "bg-yellow-50" },
+  "on-track": { badge: "badge-success", label: "On Track", border: "border-green-200", bg: "bg-green-50" },
 };
 
 const FriendDetailsPage = () => {
@@ -94,7 +73,6 @@ const FriendDetailsPage = () => {
               <span className="break-all">{friend.email}</span>
             </div>
 
-            {/* Action Buttons */}
             <div className="divider my-1"></div>
             <div className="flex flex-col gap-2 w-full">
               <button className="btn btn-outline btn-sm gap-2">
@@ -113,34 +91,7 @@ const FriendDetailsPage = () => {
         {/* RIGHT COLUMN */}
         <div className="lg:col-span-2 flex flex-col gap-6">
 
-          {/* ① Stats Cards */}
-          <div className="grid grid-cols-3 gap-3">
-            <div className="card bg-blue-50 shadow-sm border border-blue-100">
-              <div className="card-body p-4 text-center">
-                <p className="text-3xl font-bold text-blue-700">{friend.days_since_contact}</p>
-                <p className="text-xs text-blue-500 font-medium mt-1">Days Since Contact</p>
-              </div>
-            </div>
-            <div className="card bg-emerald-50 shadow-sm border border-emerald-100">
-              <div className="card-body p-4 text-center">
-                <p className="text-3xl font-bold text-emerald-700">{friend.goal}</p>
-                <p className="text-xs text-emerald-500 font-medium mt-1">Goal (days)</p>
-              </div>
-            </div>
-            <div className="card bg-purple-50 shadow-sm border border-purple-100">
-              <div className="card-body p-4 text-center">
-                <p className="text-lg font-bold text-purple-700">
-                  {new Date(friend.next_due_date).toLocaleDateString("en-GB", {
-                    day: "numeric",
-                    month: "short",
-                  })}
-                </p>
-                <p className="text-xs text-purple-500 font-medium mt-1">Next Due Date</p>
-              </div>
-            </div>
-          </div>
-
-          {/* ② Relationship Goal Card */}
+          {/* Relationship Goal Card — NO progress bar */}
           <div className="card shadow border border-gray-100 bg-base-100">
             <div className="card-body p-5">
               <div className="flex justify-between items-center mb-2">
@@ -149,23 +100,15 @@ const FriendDetailsPage = () => {
                   <FaEdit /> Edit
                 </button>
               </div>
-              <p className="text-gray-500 text-sm mb-3">
+              <p className="text-gray-500 text-sm">
                 Your goal is to contact{" "}
                 <span className="font-semibold text-gray-800">{friend.name}</span> every{" "}
                 <span className="font-semibold text-emerald-600">{friend.goal} days</span>.
               </p>
-              <progress
-                className="progress progress-success w-full"
-                value={Math.min(friend.days_since_contact, friend.goal)}
-                max={friend.goal}
-              ></progress>
-              <p className="text-xs text-gray-400 mt-1">
-                {friend.days_since_contact} / {friend.goal} days used
-              </p>
             </div>
           </div>
 
-          {/* ③ Quick Check-In Card */}
+          {/* Quick Check-In Card */}
           <div className="card shadow border border-gray-100 bg-base-100">
             <div className="card-body p-5">
               <h3 className="font-bold text-gray-700 text-lg mb-4">Quick Check-In</h3>

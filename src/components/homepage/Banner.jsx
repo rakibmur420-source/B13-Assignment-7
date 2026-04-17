@@ -1,6 +1,3 @@
-import { FaUserPlus, FaHistory } from "react-icons/fa";
-import { Link } from "react-router";
-
 const Banner = ({ friends }) => {
   const total = friends.length;
   const strong = friends.filter((f) => f.status === "on-track").length;
@@ -46,26 +43,10 @@ const Banner = ({ friends }) => {
           moments, conversations, and bonds that truly count.
         </p>
 
-        {/* Buttons */}
-        <div className="flex flex-wrap justify-center gap-3 mb-12">
-          <button className="btn bg-emerald-600 text-white border-none hover:bg-emerald-700 gap-2">
-            Get Started
-          </button>
-          <Link
-            to="/friend/1"
-            className="btn btn-outline border-emerald-600 text-emerald-600 hover:bg-emerald-600 hover:text-white gap-2"
-          >
-            <FaUserPlus />
-            Add Friend
-          </Link>
-          <Link
-            to="/history"
-            className="btn btn-ghost gap-2 text-gray-600 hover:text-emerald-600"
-          >
-            <FaHistory />
-            View Timeline
-          </Link>
-        </div>
+        {/* Only Get Started button */}
+        <button className="btn bg-emerald-600 text-white border-none hover:bg-emerald-700 mb-12">
+          Get Started
+        </button>
 
         {/* Summary Cards */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

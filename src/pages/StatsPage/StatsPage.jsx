@@ -23,7 +23,7 @@ const StatsPage = () => {
     <div className="container mx-auto px-4 py-10 max-w-2xl">
       <h1 className="text-3xl font-bold text-gray-800 mb-2">Friendship Analytics</h1>
       <p className="text-gray-500 mb-10 text-sm">
-        A visual breakdown of how you've been staying in touch.
+        
       </p>
 
       {total === 0 ? (
@@ -38,7 +38,7 @@ const StatsPage = () => {
           {/* Pie Chart Card */}
           <div className="card shadow border border-gray-100 bg-base-100 mb-6">
             <div className="card-body items-center p-6">
-              <h2 className="card-title text-gray-700 mb-4">Interaction Breakdown</h2>
+              <h2 className="card-title text-gray-700 mb-4">Interaction Analytics</h2>
               <div className="w-full flex justify-center">
                 <PieChart width={300} height={260}>
                   <Pie

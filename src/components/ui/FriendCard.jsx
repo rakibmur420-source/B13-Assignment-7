@@ -29,26 +29,29 @@ const FriendCard = ({ friend }) => {
       to={`/friend/${friend.id}`}
       className={`card shadow-sm border border-gray-100 hover:shadow-md transition-all duration-200 cursor-pointer ${config.bg}`}
     >
-      <div className="card-body p-4">
-        <div className="flex items-center gap-3 mb-2">
-          <img
-            src={friend.picture}
-            alt={friend.name}
-            className="w-14 h-14 rounded-full object-cover border-2 border-white shadow"
-          />
-          <div className="flex-1 min-w-0">
-            <h3 className="font-semibold text-gray-800 truncate">{friend.name}</h3>
-            <span className={`badge badge-sm ${config.badge} mt-1`}>
-              {config.label}
-            </span>
-          </div>
-        </div>
+      <div className="card-body p-4 items-center text-center">
+        {/* Picture centered */}
+        <img
+          src={friend.picture}
+          alt={friend.name}
+          className="w-16 h-16 rounded-full object-cover border-2 border-white shadow mx-auto"
+        />
 
+        {/* Name centered */}
+        <h3 className="font-semibold text-gray-800">{friend.name}</h3>
+
+        {/* Status badge centered */}
+        <span className={`badge badge-sm ${config.badge}`}>
+          {config.label}
+        </span>
+
+        {/* Days since contact centered */}
         <p className={`text-sm font-medium ${config.text}`}>
           {friend.days_since_contact} days since contact
         </p>
 
-        <div className="flex flex-wrap gap-1 mt-2">
+        {/* Tags centered */}
+        <div className="flex flex-wrap gap-1 justify-center">
           {friend.tags.map((tag, i) => (
             <span key={i} className="badge badge-ghost badge-sm text-xs bg-white/60">
               {tag}
